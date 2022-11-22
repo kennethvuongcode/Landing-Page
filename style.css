@@ -18,12 +18,18 @@ color: rgb(255, 255, 255);
 padding: 10px;
 }
 
+.logo {font-weight: bold;}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   padding: 6px 30px;
-  background: #eee;
+  background: rgb(54, 125, 255);
+  border: 1px solid black;
+  color: white;
+  border-color: white;
+  font-weight: bolder;
 }
 
 /* Code for Section 1*/
@@ -63,6 +69,102 @@ button {
 .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+
+/*Code for Section 2*/
+.section-2 {
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    flex: 1;
+}
+
+.images {
+    display: flex;
+    gap: 52px;
+}
+
+img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+}
+
+.subtext {
+    width: 200px;
+    text-align: center;
+}
+
+/*Section 3*/
+.section-3 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    width: 80%;
+}
+
+.citation {
+    text-align: end;
+}
+
+/*Section 4*/
+.section-4 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    height: 100px;
+    width: 60%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.small-header {
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.small-desc {
+    color: #f9faf8;
+    font-size: 12px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1f2937;
+    height: 50px;
+    width: 100%;
 }
 
 
